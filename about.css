@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+}
+
+#indexBody, html{
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+    background-color: rgba(6, 114, 0, 0);
+}
+
+.parallax{
+    background-image: url("Website_1_photos/MountEden.webp");
+    height: 90%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main Body Content */
+
+.Overview{
+    background-color: rgba(6, 114, 0, 0);
+}
+
+.Hook{
+    padding: 5%;
+    background-color: rgba(6, 114, 0);
+}
+
+.Hook h1{
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40pt;
+    color: black;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+h4{
+    font-size: 20pt;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: black;
+    padding-right: 50%;
+}
+
+.About1{
+    padding: 10%;
+    background-color: white;
+}
+
+.About1 h4{
+    padding: 0;
+    text-align: justify;
+}
+
+.Photo{
+    float: right;
+    margin: 1%;
+    max-width: 40%;
+}
+
+.Photo img{
+    max-width: 100%;
+}
+
+.Photo p{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 14pt;
+}
+
+.right{
+    float: left;
+}
+
+@media screen and (max-width: 1366px){
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 566px){
+    .explorecard{
+        max-width: 100%;
+    }
+
+    .events h4{
+        text-align: center;
+    }
+}

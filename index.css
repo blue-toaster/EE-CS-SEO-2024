@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+}
+
+#indexBody, html{
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+    background-color: rgba(6, 114, 0, 0);
+}
+
+.parallax{
+    background-image: url("Website_1_photos/AucklandIndex1.jpeg");
+    height: 90%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main Body Content */
+
+.Overview{
+    background-color: rgba(6, 114, 0, 0);
+}
+
+.Hook{
+    padding: 5%;
+    background-color: rgba(6, 114, 0);
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40pt;
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+h4{
+    font-size: 20pt;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: white;
+    padding-right: 50%;
+}
+
+.events{
+    padding: 10%;
+    height: 400px;
+}
+
+.explorecard{
+    width: 100%;
+    background-color: #fcfcfc;
+    display: block;
+    text-align: center;
+    float: left;
+    max-width: 28%;
+    height: 290px;
+    margin: 0.5%;
+    padding: 2%;
+    transition: 0.2s;
+}
+
+.explorecard:hover{
+    top: 50px;
+}
+
+.events h1, .events h4{
+    color: black;
+    padding: 0;
+    text-align: left;
+}
+
+.events h1{
+    margin: 20px;
+}
+
+#Escape{
+    text-align: center;
+}
+
+.explorecard img{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.explorecard a{
+    margin: 5px;
+}
+
+.History{
+    padding: 10%;
+    background-color: #424242;
+}
+
+.History h4{
+    color: white;
+    padding: 0;
+    text-align: justify;
+}
+
+.Photo{
+    float: right;
+    margin: 5%;
+    max-width: 30%;
+}
+
+.Photo img{
+    max-width: 100%;
+}
+
+.Photo p{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 14pt;
+    color: white;
+}
+
+.HistoryButton{
+    transition: 0.4s;
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 20pt;
+    border: 2px solid white;
+    background-color: rgba(6, 114, 0, 0);
+    padding: 20px;
+}
+
+.HistoryButton:hover{
+    background-color: white;
+    color: #424242;
+}
+
+@media screen and (max-width: 1366px){
+    .parallax{
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 566px){
+    .explorecard{
+        max-width: 100%;
+    }
+
+    .events h4{
+        text-align: center;
+    }
+}
